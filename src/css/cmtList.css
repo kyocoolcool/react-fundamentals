@@ -1,0 +1,25 @@
+/*css模塊化只針對class和id，標籤則不會*/
+/*默認:local()模塊化*/
+.title {
+    color: red;
+    text-align: center;
+    font-weight: 200;
+}
+
+.cmtTitle {
+    font-size: 15px;
+}
+
+#cmtId {
+    color: blue;
+}
+
+/*h1{*/
+/*    color: blue;*/
+/*}*/
+
+/*被global包起來不會被模塊化，而是全局生效*/
+:global(.test) {
+    font-style: italic;
+}
+
