@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import CommentsList from "@/components/CommentsList2";
+import BindEvent from "@/components/BindEvent";
+import BindingInputValue from "@/components/BindingInputValue";
 
 ReactDOM.render(<div>
-    <CommentsList/>
+    <BindingInputValue/>
 </div>, document.getElementById('app'));
 
 
